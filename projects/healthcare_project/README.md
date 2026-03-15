@@ -1,39 +1,23 @@
 # Healthcare Stroke Prediction Analysis
 
-## Project Goal
-Explore which health and lifestyle factors are associated with stroke risk.
+## Objective
+Build a portfolio-ready healthcare analytics project by cleaning a real-world dataset and analyzing factors associated with health outcomes.
+
+## Key Questions
+- What features are associated with higher risk outcomes?
+- Are there demographic patterns (e.g., age, gender, lifestyle)?
+- Can we identify high-risk groups for further investigation?
 
 ## Dataset
-Healthcare stroke dataset.
-
-Variables include:
-
-- gender
-- age
-- hypertension
-- heart_disease
-- ever_married
-- work_type
-- residence_type
-- avg_glucose_level
-- bmi
-- smoking_status
-- stroke
+- Source: Kaggle (add link and dataset name)
+- File: `data/raw/raw_data.csv`
+- Cleaned: `data/cleaned/cleaned_data.csv`
 
 ## Project Structure
+- `data/raw/`: original dataset
+- `data/cleaned/`: cleaned dataset for analysis and visualization
+- `notebooks/`: Jupyter notebooks
+- `outputs/`: charts, tables, and exported results
 
-data/raw  
-Original dataset
-
-notebooks  
-Exploratory data analysis and modeling
-
-outputs  
-Charts and analysis results
-
-## Tools
-
-Python  
-Pandas  
-Matplotlib  
-Jupyter Notebook
+## Progress Log
+- Week 12: project initialized, data cleaning notebook created, cleaned dataset exported
