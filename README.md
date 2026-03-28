@@ -16,3 +16,21 @@
 4. Add a weekly checklist at `/notes/week06_checklist.md`.
 
 > This repo aggregates learning artifacts for job search and interview discussion.
+
+## Week14: Segmentation Analysis
+
+### Objective
+- Segment population by age groups
+
+### Analysis
+- Compared stroke rate, average glucose level, and BMI across age groups
+
+### Key Finding
+- Stroke risk increases significantly with age
+- The 50+ group shows the highest risk
+
+### Business Insight
+- Age is the strongest predictor of stroke
+
+### Recommendation
+- Focus preventive healthcare efforts on the 50+ population
