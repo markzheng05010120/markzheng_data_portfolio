@@ -34,3 +34,35 @@
 
 ### Recommendation
 - Focus preventive healthcare efforts on the 50+ population
+
+
+## Week19 Progress
+
+This week focused on categorical EDA and initial risk segmentation.
+
+### Work Completed
+- Analyzed default rate by loan grade
+- Analyzed default rate by previous default history
+- Analyzed default rate by home ownership
+- Analyzed default rate by loan intent
+- Created loan burden groups
+- Compared default rate across loan burden groups
+- Combined loan grade and loan burden for early risk segmentation
+
+### Key Outputs
+- `notebooks/03_categorical_eda.ipynb`
+- `outputs/loan_grade_summary.csv`
+- `outputs/default_history_summary.csv`
+- `outputs/home_ownership_summary.csv`
+- `outputs/loan_intent_summary.csv`
+- `outputs/burden_group_summary.csv`
+- `outputs/grade_burden_summary.csv`
+
+### Key Insights
+- Loan grade appears to be an important risk indicator
+- Previous default history may help identify higher-risk borrowers
+- Loan burden is strongly related to default risk
+- Combining categorical and numerical variables improves risk segmentation
+
+### Next Step
+Next week, the project will move toward dashboard preparation and business summary writing.
