@@ -44,3 +44,22 @@ This week focused on data cleaning and data quality check.
 
 ### Next Step
 Next week, the project will move into EDA by comparing borrower income, loan amount, and interest rate across loan outcome groups.
+
+
+## Week18 Progress
+
+This week focused on numerical EDA.
+
+### Key Analysis
+- Income vs loan_status
+- Loan burden vs loan_status
+- Interest rate vs loan_status
+- Loan amount vs loan_status
+
+### Key Insights
+- Loan burden is strongly related to default risk
+- Interest rate reflects risk level
+- Income plays an important role
+
+### Next Step
+Next week: categorical analysis and segmentation
