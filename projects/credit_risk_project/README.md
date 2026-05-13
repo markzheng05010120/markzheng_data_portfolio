@@ -1,3 +1,56 @@
+# Credit Risk Analysis Project
+
+## Project Overview
+
+This project analyzes borrower and loan information to identify factors related to loan default risk.
+
+The goal is to understand which borrower groups are more likely to default and provide business insights for risk management.
+
+---
+
+## Business Problem
+
+Loan default can create financial losses for lenders.
+
+This project answers the following questions:
+
+- Which borrower characteristics are related to default risk?
+- Which loan characteristics are associated with higher default rates?
+- Can we segment borrowers into different risk groups?
+
+---
+
+## Dataset
+
+The dataset includes borrower and loan-level information such as:
+
+- age
+- income
+- employment length
+- home ownership
+- loan intent
+- loan grade
+- loan amount
+- interest rate
+- loan percent income
+- previous default history
+- credit history length
+- loan status
+
+The target variable is `loan_status`:
+
+- `0`: lower-risk / non-default group
+- `1`: higher-risk / default group
+
+
+## Tools Used
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
 # Credit Risk Analysis
 
 ## Project Overview
