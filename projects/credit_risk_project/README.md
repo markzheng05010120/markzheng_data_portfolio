@@ -382,6 +382,16 @@ The goal is to create a business-friendly dashboard that allows users to explore
 
 ---
 
+## Tableau Dashboard
+A Tableau dashboard was created to visualize:
+- borrower risk segmentation
+- default trends
+- loan grade analysis
+- loan burden analysis
+
+The dashboard includes KPI metrics, interactive filters, and business-focused visualizations.
+
+
 # Future Improvements
 
 Potential future improvements include:
