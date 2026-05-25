@@ -407,6 +407,30 @@ Potential future improvements include:
 
 ---
 
+## Predictive Modeling
+
+A Logistic Regression model was built to predict loan default risk using selected numerical borrower and loan features.
+
+### Model Workflow
+- Selected numerical features for model training
+- Split the dataset into training and testing sets
+- Trained a Logistic Regression classification model
+- Generated predictions on the test set
+- Evaluated model performance using accuracy score and confusion matrix
+- Reviewed model coefficients to understand feature importance
+
+### Key Findings
+- The model achieved around 80% overall accuracy.
+- The confusion matrix showed that the model predicted non-default cases well, but missed many default cases.
+- This suggests that accuracy alone is not enough for evaluating credit risk models.
+- False negatives are especially important in this project because they represent actual default borrowers predicted as non-default.
+- Based on coefficient values, loan amount and borrower income appeared to have stronger influence among the selected numerical features.
+- Because the features were not standardized, coefficient-based importance should be interpreted carefully.
+
+### Business Interpretation
+This model provides a basic starting point for predicting loan default risk. However, the high number of missed default cases suggests that future model improvement should focus on improving recall for default borrowers, not just overall accuracy.
+
+
 # Author
 
 Mark Zheng
