@@ -430,6 +430,18 @@ A Logistic Regression model was built to predict loan default risk using selecte
 ### Business Interpretation
 This model provides a basic starting point for predicting loan default risk. However, the high number of missed default cases suggests that future model improvement should focus on improving recall for default borrowers, not just overall accuracy.
 
+## Model Evaluation
+
+The Logistic Regression model was evaluated using classification metrics.
+
+### Key Findings
+
+- The model performs well on non-default borrowers.
+- Recall for default borrowers is only 16%.
+- Many risky borrowers are still classified as non-default.
+- The model may miss important default cases.
+- Improving recall would help identify high-risk borrowers more effectively.
+
 
 # Author
 
