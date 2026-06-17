@@ -443,7 +443,45 @@ The Logistic Regression model was evaluated using classification metrics.
 - Improving recall would help identify high-risk borrowers more effectively.
 
 
+## Final Model Comparison
+
+Two models were compared:
+
+- Logistic Regression
+- Random Forest
+
+The comparison focused on:
+- accuracy
+- precision
+- recall
+- F1-score
+
+For credit risk analysis, recall for the default class is especially important because missing actual default borrowers can lead to financial loss.
+
+## Final Project Status
+
+This project includes:
+
+- data cleaning
+- exploratory data analysis
+- risk segmentation
+- Tableau dashboard
+- Logistic Regression model
+- Random Forest model
+- model comparison
+- business recommendations
+
+## Final Outputs
+
+- `outputs/model_comparison.csv`
+- `outputs/model_comparison_barplot.png`
+- `outputs/final_project_summary.md`
+- `outputs/business_summary.md`
+- `outputs/dashboard_detail.csv`
+- `outputs/dashboard_summary.csv`
+
 # Author
+
 
 Mark Zheng
 
